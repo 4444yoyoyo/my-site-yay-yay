@@ -1,0 +1,130 @@
+<!-- 📚 book.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Book</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #f8f9fa;
+      color: #1f2937;
+    }
+    header {
+      background: linear-gradient(to right, #1e293b, #334155);
+      color: white;
+      padding: 4rem 2rem;
+      text-align: center;
+    }
+    header h1 {
+      font-size: 2.8rem;
+      margin-bottom: 0.5rem;
+    }
+    header p {
+      font-size: 1.15rem;
+      color: #d1d5db;
+    }
+    nav {
+      background: white;
+      padding: 1rem;
+      text-align: center;
+      box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+    }
+    nav a {
+      margin: 0 1rem;
+      color: #374151;
+      text-decoration: none;
+      font-weight: 500;
+    }
+    .book-section {
+      max-width: 1000px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+    .book-hero {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .book-hero img {
+      max-width: 350px;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.1);
+    }
+    .book-info {
+      flex: 1;
+      margin-left: 2rem;
+    }
+    .book-info h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .book-info p {
+      font-size: 1.1rem;
+      color: #4b5563;
+      line-height: 1.6;
+    }
+    .highlight {
+      background: #facc15;
+      color: #111827;
+      padding: 0.3rem 0.5rem;
+      font-weight: bold;
+    }
+    .cta {
+      margin-top: 2rem;
+    }
+    .cta a {
+      background: #111827;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #f0f0f0;
+      font-size: 0.9rem;
+      color: #6b7280;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>The Algorithm Hunger Games</h1>
+    <p>A Gen Z manifesto on tech, truth & digital survival</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="shop.html">Shop</a>
+    <a href="book.html">Book</a>
+    <a href="blog.html">Blog</a>
+  </nav>
+
+  <section class="book-section">
+    <div class="book-hero">
+      <img src="book-cover-placeholder.jpg" alt="Book Cover" />
+      <div class="book-info">
+        <h2>What happens when the algorithm is the gamemaker?</h2>
+        <p>This edgy, visual-driven book takes you through a dystopian yet relatable exploration of how AI, bias, and social media shape our minds and futures. Designed for young people, by young people. Includes original graphics, mini-experiments, and bold commentary on tech, activism, and identity in the 2020s.</p>
+        <p><span class="highlight">Coming Soon!</span> Preorder opens this fall.</p>
+        <div class="cta">
+          <a href="#">Notify Me →</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 | All rights reserved</p>
+  </footer>
+</body>
+</html>

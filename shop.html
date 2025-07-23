@@ -1,0 +1,102 @@
+<!-- 📁 shop.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Canva Template Shop</title>
+  <link rel="stylesheet" href="style.css" />
+  <style>
+    body {
+      background: #fff0f6;
+      color: #5a2a5f;
+      font-family: 'Poppins', sans-serif;
+    }
+    header, footer {
+      background: #ffe4f0;
+      text-align: center;
+      padding: 1.5rem;
+    }
+    h1 {
+      color: #d63384;
+      font-size: 2.5rem;
+    }
+    nav a {
+      margin: 0 0.5rem;
+      color: #b83280;
+      text-decoration: none;
+    }
+    .shop-container {
+      max-width: 1000px;
+      margin: 2rem auto;
+      display: grid;
+      gap: 2rem;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      padding: 2rem;
+    }
+    .template-card {
+      background: #fff;
+      border: 2px solid #f8d7e9;
+      border-radius: 1rem;
+      padding: 1rem;
+      box-shadow: 0 8px 16px rgba(244,114,182,0.2);
+      text-align: center;
+    }
+    .template-card img {
+      width: 100%;
+      border-radius: 0.5rem;
+    }
+    .template-card h3 {
+      color: #b83280;
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+    .template-card a {
+      display: inline-block;
+      margin-top: 0.5rem;
+      background: #ffb3d9;
+      color: #fff;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+    }
+    .template-card a:hover {
+      background: #e75480;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>✨ Canva Template Shop ✨</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="shop.html">Shop</a>
+      <a href="book.html">Book</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+  </header>
+
+  <main class="shop-container">
+    <div class="template-card">
+      <img src="template1-preview.png" alt="Template 1 Preview">
+      <h3>Minimal Academic Planner</h3>
+      <a href="#">Download</a>
+    </div>
+    <div class="template-card">
+      <img src="template2-preview.png" alt="Template 2 Preview">
+      <h3>Pitch Deck for Teen Startups</h3>
+      <a href="#">Download</a>
+    </div>
+    <div class="template-card">
+      <img src="template3-preview.png" alt="Template 3 Preview">
+      <h3>Social Media Content Kit</h3>
+      <a href="#">Download</a>
+    </div>
+  </main>
+
+  <footer>
+    <p>🛍️ Built with pink, glitter, and passion for Gen Z hustlers</p>
+  </footer>
+</body>
+</html>

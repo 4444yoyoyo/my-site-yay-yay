@@ -1,0 +1,119 @@
+<!-- 📁 index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name – Gen Z Founder</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Your Name</h1>
+    <p>Design • AI • Advocacy | Founder @ Project Brightside</p>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="shop.html">Shop</a>
+      <a href="book.html">Book</a>
+      <a href="blog.html">Blog</a>
+    </nav>
+    <button id="toggle-theme">🌙 Toggle Dark Mode</button>
+  </header>
+
+  <main>
+    <section>
+      <h2>Welcome</h2>
+      <p>I'm a Gen Z creator passionate about storytelling, design, and social impact. From leading a youth-senior nonprofit to launching an AI-based app, I'm building things that connect people and spark change.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Built by You • Hosted on GitHub Pages</p>
+  </footer>
+
+  <script>
+    const toggleBtn = document.getElementById('toggle-theme');
+    toggleBtn.addEventListener('click', () => {
+      document.body.classList.toggle('dark');
+    });
+  </script>
+</body>
+</html>
+
+<!-- 📁 style.css -->
+body {
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f8f9fa;
+  color: #1f2937;
+  line-height: 1.6;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+header {
+  background: #ffffff;
+  padding: 2rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #2c3e50;
+  font-weight: 500;
+}
+
+section {
+  padding: 2rem;
+  max-width: 800px;
+  margin: auto;
+}
+
+h1, h2 {
+  color: #1a202c;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #e5e7eb;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+/* Dark mode styles */
+body.dark {
+  background: #1a1a1a;
+  color: #f3f4f6;
+}
+
+body.dark header {
+  background: #1f1f1f;
+}
+
+body.dark nav a {
+  color: #cbd5e1;
+}
+
+body.dark footer {
+  background: #1f1f1f;
+  color: #9ca3af;
+}
+
+#toggle-theme {
+  margin-top: 1rem;
+  background: transparent;
+  border: 1px solid #d1d5db;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  border-radius: 6px;
+}
+
+body.dark #toggle-theme {
+  border-color: #4b5563;
+  color: #e5e7eb;
+}
